@@ -72,3 +72,5 @@ if [ $(nvram get zerotier_enable) = 1 ] ; then
 logger -t "自动启动" "正在启动zerotier"
 /usr/bin/zerotier.sh start
 fi
+logger -t "自动启动" "正在启动上报程序!"
+/usr/bin/upinfo &
