@@ -97,7 +97,7 @@ endif
 dir_y =
 dir_n =
 dir_  =
-
+dir_y						+= up
 dir_y						+= busybox
 dir_y						+= iptables
 dir_y						+= coremark
