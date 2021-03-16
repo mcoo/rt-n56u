@@ -1,4 +1,4 @@
-SRC_NAME = htop-3.0.2
+SRC_NAME = htop-3.0.5
 SRC_URL = https://github.com/htop-dev/htop/archive/3.0.5.tar.gz
 THISDIR = $(shell pwd)
 
